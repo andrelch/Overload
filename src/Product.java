@@ -1,5 +1,3 @@
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 
 public class Product {
 
@@ -23,6 +21,8 @@ public class Product {
     }
 
     public void apple (double extract, double water){
+        //this refers to the current object in the method
+        //in this case, it's the input in the parameters
         this.extract = extract;
         this.water = water;
 
